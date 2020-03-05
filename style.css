@@ -1,0 +1,146 @@
+
+body{background-color: #2A2B2F; 
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	color: blue; 
+ }
+h2 {color: #0443E3;
+	font: 1.6em/1.4 proximanova,sans-serif;
+}
+
+h1{font-family: gilroy,
+	sans-serif;color: #0443E3; 
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+	font-weight: normal;
+}
+
+a{color: #10a3ea
+text-decoration: none}
+
+a:hover {color:#105285;}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.logo-resize{
+	width: 70px;
+	height: 70px;
+	border-radius:6px;
+}
+
+.container {
+	background-color: #2A2B2F;
+	width: 800px;
+	margin: 40px auto
+}
+
+.card-green {
+background-color: #21e39e;
+padding:25px 50px 25px 50px;
+margin: 20px auto;
+border-radius: 6px;
+box-shadow: 0 10px 30px rgba(0,0,0,.2);
+text-align:center;
+}
+
+.btn-red {
+	padding: 15px;
+	background-color: blue;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    text-decoration:none;
+}
+
+.btn-red:hover {
+	background-color: #23cd90;
+	color: #22a978
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+  display: inline; 
+  padding: 0px 20px
+}
+
+.list-inline i {
+	color: blue;
+	font-size: 50px
+}
+
+.list-inline i:hover{
+	color: #23cd90
+}
+
+.arrow-black {
+	padding-left: 0px;
+	animation: slide-slow 3s infinite
+	width: 100px;
+	height:100px;
+	transform: rotate(270deg);
+}
+
+#gif {
+transform: rotate(90deg)
+}
+
+.list-inline2 li {
+	display: inline-block;
+	vertical-align: middle; 
+}
+
+.list-inline2 {
+	padding:40px;
+	margin: 0px
+}
+
+.h2-shadow {
+	text-shadow: 1px 1px 1px white, 2px 2px 1px #A81B36;
+	margin: 0px
+}
+
+.h2-inline li {
+	list-style: none;
+	display: inline-block;
+}
+
+.h2-inline {
+	padding-inline-start: 0px;
+	margin: 0px}
+
+/* id design*/
+
+#header-center {
+	text-align: center
+}
+
+#img-louisMDV {
+	border-radius:10px;
+	width: 200px;
+	height: 200px
+
+}
+
+#LMDV-letterspacing {
+	letter-spacing: 10px;
+	margin-bottom: -20px
+}
+
+
